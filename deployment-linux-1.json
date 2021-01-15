@@ -52,15 +52,7 @@
             "branch": "[variables('branch')]",
             "IsManualIntegration": true
           }
-        },
-		{
-		  "name": "appsettings",
-		  "type": "config",
-		  "apiVersion": "2018-11-01",
-		  "properties": {
-			"WEBSITE_RUN_FROM_PACKAGE": "1"
-  }
-}
+        }
       ]
     }
   ]
