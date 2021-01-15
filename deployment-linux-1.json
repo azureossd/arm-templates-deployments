@@ -57,6 +57,9 @@
 		  "name": "appsettings",
 		  "type": "config",
 		  "type": "config",
+		  "dependsOn": [
+            "[resourceId('Microsoft.Web/Sites', variables('siteName'))]"
+          ],
 		  "apiVersion": "2018-11-01",
 		  "properties": {
 			"WEBSITE_RUN_FROM_PACKAGE": "1"
