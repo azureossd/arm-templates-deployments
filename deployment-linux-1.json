@@ -56,7 +56,6 @@
 		{
 		  "name": "appsettings",
 		  "type": "config",
-		  "type": "config",
 		  "dependsOn": [
             "[resourceId('Microsoft.Web/Sites', variables('siteName'))]"
           ],
