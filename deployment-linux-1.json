@@ -10,7 +10,7 @@
     "repoURL": "https://github.com/azureossd/deployment-linux-1.git",
     "branch": "master",
     "siteConfig": {
-      "linuxFxVersion": "NODE|12-lts"
+      "linuxFxVersion": "NODE|20-lts"
     }
   },
   "resources": [
